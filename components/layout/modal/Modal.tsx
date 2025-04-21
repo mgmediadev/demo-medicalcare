@@ -12,6 +12,14 @@ interface ModalProps {
   isOpen: boolean;
 }
 
+interface Appointment {
+  id: string;
+  datetime: string;
+  name: string;
+  specialty: string;
+  location: string;
+}
+
 const Modal = ({ closeModal, data, isOpen }: ModalProps) => {
   const dispatch = useAppDispatch();
   const { name, location, photo, specialty } = data;
@@ -29,14 +37,6 @@ const Modal = ({ closeModal, data, isOpen }: ModalProps) => {
     setTimeSelected(event.target.value);
 
   const handleError = () => setImageSrc('/no-user.png');
-
-  interface Appointment {
-    id: string;
-    datetime: string;
-    name: string;
-    specialty: string;
-    location: string;
-  }
 
   const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
@@ -56,11 +56,13 @@ const Modal = ({ closeModal, data, isOpen }: ModalProps) => {
   };
 
   useEffect(() => {
-    setImageSrc(photo);
+    // Clean fields when modal is mounted
     selectTime.current!.value = '';
     setDateSelected('');
+
     selectDate.current?.focus();
-  }, [photo]);
+    setImageSrc(photo);
+  }, [isOpen, photo]);
 
   return (
     <dialog id='my-modal' className={`modal ${isOpen ? 'open' : ''}`}>
