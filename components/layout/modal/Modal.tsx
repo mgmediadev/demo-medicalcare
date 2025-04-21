@@ -21,6 +21,7 @@ const Modal = ({ closeModal, data, isOpen }: ModalProps) => {
   const [timeSelected, setTimeSelected] = useState('');
 
   const selectDate = useRef<HTMLInputElement>(null);
+  const selectTime = useRef<HTMLSelectElement>(null);
 
   const handleDate = (event: ChangeEvent<HTMLInputElement>) => setDateSelected(event.target.value);
 
@@ -56,6 +57,8 @@ const Modal = ({ closeModal, data, isOpen }: ModalProps) => {
 
   useEffect(() => {
     setImageSrc(photo);
+    selectTime.current!.value = '';
+    setDateSelected('');
     selectDate.current?.focus();
   }, [photo]);
 
@@ -96,7 +99,12 @@ const Modal = ({ closeModal, data, isOpen }: ModalProps) => {
               className='text-center'
             />
 
-            <select name='time' onChange={handleTimeChange} aria-label='select appointment time'>
+            <select
+              name='time'
+              ref={selectTime}
+              onChange={handleTimeChange}
+              aria-label='select appointment time'
+            >
               <option value=''>Select</option>
               <option value='' disabled>
                 -----
