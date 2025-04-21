@@ -2,8 +2,7 @@
 
 You can perform the following actions:
 
-**Visit the online site:**
-[https://demo-medicalcare.vercel.app/](demo-medicalcare.vercel.app)
+> **Visit the online site:** > [https://demo-medicalcare.vercel.app/]
 
 OR
 
