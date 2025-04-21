@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2019 (64-Bit) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="904px" height="904px" version="1.1" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd"
+viewBox="0 0 317.83 317.83"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+   <linearGradient id="id0" gradientUnits="userSpaceOnUse" x1="79.65" y1="252.09" x2="158.92" y2="252.09">
+    <stop offset="0" stop-opacity="1" stop-color="#28BCB5"/>
+    <stop offset="1" stop-opacity="1" stop-color="#2DA2AB"/>
+   </linearGradient>
+   <linearGradient id="id1" gradientUnits="userSpaceOnUse" x1="79.65" y1="252.09" x2="158.92" y2="252.09">
+    <stop offset="0" stop-opacity="1" stop-color="#28BCB5"/>
+    <stop offset="1" stop-opacity="1" stop-color="#51B2C0"/>
+   </linearGradient>
+   <linearGradient id="id2" gradientUnits="userSpaceOnUse" x1="158.92" y1="70.55" x2="238.18" y2="70.55">
+    <stop offset="0" stop-opacity="1" stop-color="#28BCB5"/>
+    <stop offset="1" stop-opacity="1" stop-color="#51B2C0"/>
+   </linearGradient>
+   <linearGradient id="id3" gradientUnits="userSpaceOnUse" x1="2.03" y1="119.28" x2="129.46" y2="119.28">
+    <stop offset="0" stop-opacity="1" stop-color="#28BCB5"/>
+    <stop offset="1" stop-opacity="1" stop-color="#51B2C0"/>
+   </linearGradient>
+   <linearGradient id="id4" gradientUnits="userSpaceOnUse" x1="2.03" y1="119.28" x2="129.46" y2="119.28">
+    <stop offset="0" stop-opacity="1" stop-color="#28BCB5"/>
+    <stop offset="1" stop-opacity="1" stop-color="#51B2C0"/>
+   </linearGradient>
+   <linearGradient id="id5" gradientUnits="userSpaceOnUse" x1="178.76" y1="198.55" x2="315.8" y2="198.55">
+    <stop offset="0" stop-opacity="1" stop-color="#28BCB5"/>
+    <stop offset="1" stop-opacity="1" stop-color="#51B2C0"/>
+   </linearGradient>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <path fill="url(#id0)" d="M123.17 317.65c20.61,-1.97 35.75,-20.45 35.75,-41.15l0 -43.89c-17.28,-17.27 -26.96,-26.96 -44.24,-44.23l-35.03 0 0 89.82c0,23.17 19.89,41.7 43.52,39.45z"/>
+  <path fill="url(#id1)" d="M123.17 317.65c20.61,-1.97 35.75,-20.45 35.75,-41.15l0 -43.89c-17.28,-17.27 -26.96,-26.96 -44.24,-44.23l-35.03 0 0 89.82c0,23.17 19.89,41.7 43.52,39.45z"/>
+  <path fill="url(#id2)" d="M194.66 0.19c-20.61,1.96 -35.74,20.45 -35.74,41.15l0 53.5c17.27,17.27 26.96,26.95 44.23,44.23l35.03 0 0 -99.44c0,-23.17 -19.88,-41.7 -43.52,-39.44z"/>
+  <path fill="url(#id3)" d="M0.19 123.17c1.96,20.61 20.45,35.75 41.15,35.75l43.88 0c17.28,-17.28 26.96,-26.96 44.24,-44.24l0 -35.03 -89.82 0c-23.18,0 -41.71,19.89 -39.45,43.52z"/>
+  <path fill="url(#id4)" d="M0.19 123.17c1.96,20.61 20.45,35.75 41.15,35.75l43.88 0c17.28,-17.28 26.96,-26.96 44.24,-44.24l0 -35.03 -89.82 0c-23.18,0 -41.71,19.89 -39.45,43.52z"/>
+  <path fill="url(#id5)" d="M317.65 194.66c-1.97,-20.61 -20.45,-35.74 -41.15,-35.74l-53.5 0c-17.28,17.27 -26.96,26.96 -44.24,44.23l0 35.03 99.44 0c23.17,0 41.7,-19.88 39.45,-43.52z"/>
+ </g>
+</svg>

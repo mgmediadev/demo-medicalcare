@@ -1,26 +1,89 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #c9e0df;
+  --foreground: #7a9cce;
+  --medaqua-light: #dff5f4;
+  --medaqua-dark: #1a7e79;
+  --medaqua: #28bcb5;
+  --medblue: #334169;
 }
 
 @theme inline {
-  --color-background: var(--background);
+  --color-background: var(--medaqua);
   --color-foreground: var(--foreground);
+  --color-medaqua: var(--medaqua);
+  --color-medaqua-light: var(--medaqua-light);
+  --color-medaqua-dark: var(--medaqua-dark);
+  --color-medblue: var(--medblue);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+body {
+  background: var(--medaqua-light);
+  color: dark;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+article {
+  @apply bg-white shadow-md rounded-md p-2;
+}
+
+button {
+  @apply select-none py-2 px-4 bg-medblue rounded-full text-white text-sm hover:bg-black hover:cursor-pointer;
+}
+
+fieldset {
+  @apply w-full lg:w-fit flex items-center;
+}
+
+h1 {
+  @apply text-4xl text-medblue m-0 p-0 font-bold;
+}
+
+label {
+  @apply w-30 me-2 m-0 lg:w-fit;
+}
+
+select,
+input {
+  @apply bg-white py-2 px-4 rounded-sm border border-gray-400 w-full;
+}
+
+table {
+  @apply w-full bg-white rounded-md mt-8;
+}
+  
+table th {
+  @apply bg-medblue text-white p-2;
+}
+
+table td {
+  @apply p-2 min-w-50;
+}
+
+table tbody tr:nth-child(even) {
+  @apply bg-gray-200;
+}
+
+.animation {
+  @apply transition-all ease-in-out;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 60;
+  overflow-y: auto;
+  place-items: center;
+}
+
+.modal.open {
+  display: grid;
 }

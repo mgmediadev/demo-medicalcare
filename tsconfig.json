@@ -19,7 +19,11 @@
       }
     ],
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["./*"],
+      "@/doctors/*": ["./components/doctors/*"],
+      "@/hooks/*": ["./hooks/*"],
+      "@/layout/*": ["./components/layout/*"],
+      "@/redux/*": ["./lib/redux/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
