@@ -1,6 +1,6 @@
-## Getting Started
+## To visualize this exercise
 
-to visualize this exercise, you can perform the following actions:
+You can perform the following actions:
 
 ```bash
 git clone https://github.com/mgmediadev/demo-medicalcare.git
@@ -9,23 +9,46 @@ npm install
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+OR
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+Visit the online site:
+[https://demo-medicalcare.vercel.app/](demo-medicalcare.vercel.app)
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+To create this exercise, all the proposed steps were followed.
 
-## Learn More
+```
+:warning:
+The point of filtering by availability is not understood, because when the user schedules an appointment, he selects a day and a time, so to indicate when the doctor is available or not would require reviewing the list of appointments (in this case the global status of Redux) and compare it with the schedule when the user is viewing the exercise, so it would be a much more extensive development thought in this exercise.
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Applied Technology
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Next js 15.
+- Typescript.
+- TailwindCSS.
+- Redux Toolkit.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## AI tool applications
 
-## Deploy on Vercel
+To streamline the process of creating this exercise, some AI tools were used in these cases:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Claude:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+  - Implementation of redux for appointment scheduling.
+
+- Chat GPT:
+
+  - Creation of a list of doctors.
+
+- GitHub Copilot:
+  - Fix type problems (Typescript).
+
+## Contact me
+
+Gonzalo Medina Galdames
+
+- Linked In: [https://www.linkedin.com/in/gonzalo-medina-g/](gonzalo-medina-g)
+- Linked In: [mailto:mgmediaweb@gmail.com](mgmediaweb@gmail.com)
+- Phone/WA: [tel:+526622815577](+52 (662) 281 55 77)
