@@ -67,18 +67,6 @@ const Doctors = () => {
           </fieldset>
 
           <fieldset>
-            <label htmlFor='filter_availability' className='ms-4'>
-              Availability
-            </label>
-            <select id='filter_availability' name='filter_availability'>
-              <option value=''>All</option>
-              <option value='' disabled>
-                --------------
-              </option>
-            </select>
-          </fieldset>
-
-          <fieldset>
             <label htmlFor='filter_sort' className='ms-4'>
               Sort
             </label>

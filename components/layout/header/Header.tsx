@@ -35,7 +35,7 @@ const Header = () => {
 
   useEffect(() => {
     // eslint-disable-next-line @typescript-eslint/no-unused-expressions
-    isMobile && setVisible(false);
+    setVisible(!isMobile);
   }, [isMobile]);
 
   return (
