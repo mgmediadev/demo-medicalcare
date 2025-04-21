@@ -27,8 +27,8 @@ const Header = () => {
     height: isMobile ? (visible ? `${NAVIGATION.length * 6}rem` : '4rem') : '100vh',
   };
 
-  const navStyle = {
-    display: visible ? 'block' : 'hidden',
+  const navStyle: React.CSSProperties = {
+    display: visible ? 'block' : 'none',
     position: isMobile ? 'absolute' : 'relative',
     top: isMobile ? '4rem' : '0rem',
   };

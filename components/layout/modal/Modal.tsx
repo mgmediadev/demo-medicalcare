@@ -131,7 +131,7 @@ const Modal = ({ closeModal, data, isOpen }: ModalProps) => {
 
           <div className='flex justify-end mt-4'>
             <button
-              type='submit'
+              type='button'
               className='!bg-medaqua !text-white hover:!bg-medaqua-dark mr-2'
               onClick={() => closeModal(false)}
               aria-label='Close Modal'

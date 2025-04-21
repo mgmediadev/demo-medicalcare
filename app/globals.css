@@ -54,7 +54,7 @@ input {
 table {
   @apply w-full bg-white rounded-md mt-8;
 }
-  
+
 table th {
   @apply bg-medblue text-white p-2;
 }
@@ -72,16 +72,17 @@ table tbody tr:nth-child(even) {
 }
 
 .modal {
+  backdrop-filter: blur(2px);
+  background-color: rgba(0, 0, 0, 0.66);
   display: none;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  z-index: 60;
+  left: 0;
   overflow-y: auto;
   place-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 60;
 }
 
 .modal.open {
